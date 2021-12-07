@@ -1,0 +1,64 @@
+body {
+  background-color: wheat;
+}
+.div {
+  width: 400px;
+  margin: 1rem;
+  padding: 0.1rem;
+  border: 1px dotted black;
+}
+.btn {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  margin-right: 5px;
+}
+.showBtn {
+  color: rgb(221, 220, 224);
+  background-color: black;
+  /* margin-top: 2rem; */
+}
+.App {
+  width: 500px;
+  margin: auto;
+}
+.completedDiv h3 {
+  text-decoration: line-through black 4px solid;
+}
+.completedDiv div {
+  /* margin: 0.5rem; */
+  background-color: lightgreen;
+}
+.board {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: black;
+}
+.square:active {
+  background-color: pink;
+}
+h2,
+h3 {
+  display: grid;
+  place-content: center;
+}
