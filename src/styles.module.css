@@ -57,8 +57,48 @@ body {
 .square:active {
   background-color: pink;
 }
-h2,
+/* h2,
 h3 {
   display: grid;
   place-content: center;
+} */
+.orangeDiv {
+  margin: auto;
+  width: 450px;
+  height: 200px;
+  /* border: 1px solid black; */
+  background-color: orange;
+  padding: 3.5rem;
+  margin-top: 1rem;
+}
+.greyDiv {
+  margin: auto;
+  width: 450px;
+  height: 200px;
+  /* border: 1px solid black; */
+  background-color: grey;
+  padding: 3.5rem;
+  margin-top: 1rem;
+}
+.cardButton {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-top: 30px;
+}
+.cardButton:hover {
+  cursor: pointer;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+.arrow {
+  float: right;
+  background-color: none;
+  border: none;
+  height: 25px;
 }
