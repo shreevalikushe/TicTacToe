@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Patterns } from "./Patterns";
 import Square from "./Square";
-import styles from "/src/styles.module.css";
+import styles from "../app.module.css";
 function TicTacToe() {
   const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
   const [player, setPlayer] = useState("O");
@@ -64,8 +64,11 @@ function TicTacToe() {
   };
   return (
     <>
-      <h2>TIC TAC TOE</h2>
-      <h3>HAVE SOME FUN!</h3>
+      <div style={{ width: "250px", textAlign: "center", margin: "auto" }}>
+        <h1>TIC TAC TOE</h1>
+        <h3>HAVE SOME FUN!</h3>
+      </div>
+
       <div className={styles.board}>
         <div className={styles.row}>
           <Square val={board[0]} chooseSquare={() => chooseSquare(0)} />

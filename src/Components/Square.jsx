@@ -1,4 +1,5 @@
-import styles from "/src/styles.module.css";
+import styles from "../app.module.css";
+// TicTacToe / src / styles.module.css;
 function Square({ val, chooseSquare }) {
   return (
     <>
